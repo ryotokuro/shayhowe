@@ -1,0 +1,32 @@
+/* Common CSS Terms
+    1. Selectors
+        - designates which element(s) in HTML to target/apply styles
+            i.e. colour, size, position
+
+        - can select based on a combination of qualifiers
+            i.e. select EVERY paragraph OR a specific paragraph
+
+        - generally target an ATTRIBUTE value
+            i.e. id or class value, element; <h1> or <p>
+
+        * Selectors are FOLLOWED by CURLY BRACES { }
+            i.e. p{styles to be applied} ; targeting all <p> elements
+
+    2. Properties
+        - fall AFTER a selector
+        - colon ';' comes after each property
+        - TYPES: background, color, font-size, height, width
+        - EXAMPLE:
+            p {
+                color: ...;
+                font-size: ...;
+            }
+
+    3. Values
+        - determines behaviour of the property (pairs)
+        - defines the property of the element
+        - EXAMPLE:
+            p {
+                color: orange;
+                font-size: 16px;
+            }
