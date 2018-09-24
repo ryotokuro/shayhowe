@@ -30,3 +30,28 @@
                 color: orange;
                 font-size: 16px;
             }
+
+* Working with Selectors *
+    1. Type Selectors
+        - target elements by their element TYPE
+        - EXAMPLE:
+            div {...} ; selects all HTML division elements
+
+    2. Class Selectors
+        - select based on element's CLASS attribute
+        - classes in CSS are denoted by the '.' followed by the class value
+            i.e. .awesome {...}
+        - EXAMPLE:
+            CSS: .awesome{...}
+            HTML: <div class="awesome">...</div>
+                    <p class="awesome">...</p>
+    
+    3. ID Selectors
+        - target only one UNIQUE value
+        - can only be used once per page
+        - reserve for SIGNIFICANT elements
+        - in CSS ids are denoted by a hash '#' followed by the id attribute value
+        - EXAMPLE:
+            CSS: #shayhowe {...}
+            HTML: <div id="shayhowe">...</div>
+        
