@@ -174,7 +174,20 @@ To create an email link:
 
 Additionally, subject, body and other info can be pre-populated
 * SUBJECT
-subject= parameter (after email address)
+    - subject=text (after email address)
+
+* BODY
+    - body=text
+
+* with binding different parameters, the AMPERSAND is used as a separator (and)
+e.g. subject=text1&body=text2
+
+* additionally:
+- spaces are ENCODED using %20
+- line breaks use %0A
+
+* EXAMPLE: -->
+<a href="mailto:ryotokuro@gmail.com&subject=Good%20Morning!&body=Have%20a%20good%20day!%0ACheers%20:)">Send a friendly email!</a>
 
 <!-- Division: labelled class SOCIAL for social media content -->
 <div class="social">
