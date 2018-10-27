@@ -204,7 +204,16 @@ Linking to Parts of the Same Page
 * Links that link to certain parts/sections of the page
 e.g. "Back to top" links
 
-* On-page links are done by 
+* On-page links are done by setting an 'id' attribute on the element we wish to link to
+    - then using the value of the id attribute within an anchor's element ('href' attribute)
+
+e.g. place an 'id' attribute of 'top' in the 'body' element
+    - an anchor with href="#top" links to the top
+
+* EXAMPLE: -->
+<body id="top">
+    <a href="#top">Back to top</a>
+</body>
 
 <!-- Division: labelled class SOCIAL for social media content -->
 <div class="social">
