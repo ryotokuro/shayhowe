@@ -179,6 +179,9 @@ Additionally, subject, body and other info can be pre-populated
 * BODY
     - body=text
 
+* note the FIRST parameter must be preceded by a QUESTION MARK (?)
+- this is to bind it to the hyperlink path
+
 * with binding different parameters, the AMPERSAND is used as a separator (and)
 e.g. subject=text1&body=text2
 
@@ -187,7 +190,7 @@ e.g. subject=text1&body=text2
 - line breaks use %0A
 
 * EXAMPLE: -->
-<a href="mailto:ryotokuro@gmail.com&subject=Good%20Morning!&body=Have%20a%20good%20day!%0ACheers%20:)">Send a friendly email!</a>
+<a href="mailto:ryotokuro@gmail.com?subject=Good%20Morning!&body=Have%20a%20good%20day!%0ACheers%20:)">Send a friendly email!</a>
 
 <!-- Division: labelled class SOCIAL for social media content -->
 <div class="social">
