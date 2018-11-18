@@ -1,3 +1,21 @@
 p {
-    
+    background: orange;
+    font-size: 24px;
 }
+
+/*
+Style for paragraph p is overridden:
+    - background is green
+    - font size stays the same
+*/
+p {
+    background: green;
+}
+
+p {
+    background: green;
+    /* new background is overruled to be red */
+    background: red;
+}
+
+/* Specificity Weight */
