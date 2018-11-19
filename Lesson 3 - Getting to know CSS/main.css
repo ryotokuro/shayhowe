@@ -19,3 +19,26 @@ p {
 }
 
 /* Specificity Weight */
+/*
+In order from HIGHEST to LOWEST weight (1 - 3)
+1. ID Selector (id="")
+    Point value: 1 0 0
+
+2. Class Selector
+    Point value: 0 1 0
+
+3. Type Selector
+    Point value: 0 0 1
+
+The higher the weight, the higher priority is given to the selector. Therefore, an ID selector would override a class and type selector's values.
+
+Below, you can see the pargraph now has a background of ORANGE, as the id selector #test takes priority.
+*/
+
+#test {
+    background: orange;
+}
+
+p {
+    background: green;
+}
