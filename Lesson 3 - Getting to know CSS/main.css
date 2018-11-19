@@ -42,3 +42,17 @@ Below, you can see the pargraph now has a background of ORANGE, as the id select
 p {
     background: green;
 }
+
+/* Combining Selectors */
+/*
+If we want to select all pargraph elements in class attribute of 'hotdog' and set the colour to brown AND also set one of the class attributes 'mustard' to yellow then:
+*/
+
+.hotdog p {
+    background: brown;
+}
+
+/* mustard belonging to hotdog class */
+.hotdog p.mustard {
+    background: yellow;
+}
