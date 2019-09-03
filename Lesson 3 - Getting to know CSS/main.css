@@ -68,7 +68,8 @@ If we want to select all pargraph elements in class attribute of 'hotdog' and se
 
 /* Buttons testing multiple classes */
 .btn {
-    font-size: 20pt;
+    font-size: 2em;
+    width: 10em;
 }
 
 .btn-danger {
