@@ -10,20 +10,44 @@ section {
     font-size: 1.5em;
 }*/
 
+/* CLEARFIX implementation */
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+
+.group {
+    clear: both;
+}
+
+.group:after {
+    clear: both;
+}
+
 section {
     float: left;
+    border: 3pt solid #ff3ea1;
+    box-sizing: border-box;
+    padding: 1em;
     margin: 0 1.5%;
-    width: 30%;
+    /*width: 30%;*/
+    width: 64%;
     font-size: 1.5em;
 }
 
 aside {
     float: right;
+    border: 3pt solid #a13aff;
+    box-sizing: border-box;
+    padding: 1em;
     margin: 0 1.5%;
     width: 30%;
     font-size: 1.5em;
 }
 
 footer {
-    font-size: 1em;
+    font-size: 1.2em;
+    /* clears float effects AFTER they have been applied*
+    clear: both;
 }
