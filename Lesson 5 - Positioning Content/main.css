@@ -46,6 +46,24 @@ aside {
     font-size: 1.5em;
 }
 
+div {
+    height: 110px;
+    width: 600px;
+    border: 3px solid;
+}
+
+.offset {
+    left: 200px;
+    position: relative;
+    top: 30px;
+}
+
+.absolute {
+    top: 30px;
+    left: 30px;
+    position: absolute;
+}
+
 footer {
     font-size: 1.2em;
     /* clears float effects AFTER they have been applied*
