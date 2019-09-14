@@ -1,0 +1,45 @@
+html {
+    font-family: Moderat;
+    font-size: 12pt;
+}
+
+.note {
+    font-size: 3em;
+    text-decoration: line-through underline;
+}
+
+p {
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 1em 0.5em 0.1em rgba(1000, 101, 0, 0.8);
+
+}
+
+section {
+    font-size: 1.5em;
+    text-indent: 1em;
+    margin-bottom: 2em;
+}
+
+.box-parent {
+    text-align: center;
+}
+
+.box {
+    margin: 0px 15px;
+    padding: 10px;
+    
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    
+    word-spacing: 1em;
+    letter-spacing: -.1em;
+    text-transform: lowercase;
+    font-size: 2em;
+    line-height: 100px;
+    
+    color: white;
+    background: #f00;
+    box-shadow: -1em -1em 0em rgba(0, 0, 0, 1);
+}
