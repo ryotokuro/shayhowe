@@ -64,6 +64,7 @@ Grid
 /* Relative properties for HTML */
 html {
     font-size: 12pt;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* Common class 'Container' for all the page elements' */
@@ -72,17 +73,6 @@ html {
     padding-left: 30px;
     padding-right: 30px;
     width: 960px;
-}
-
-/*
-===============================
-Custom Styles
-===============================
-*/
-
-body {
-    color: #888;
-    font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h1, h3, h4, h5, p {
