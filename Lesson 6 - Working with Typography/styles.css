@@ -61,10 +61,24 @@ Grid
     box-sizing: border-box;
 }
 
+/*
+===============================
+Global
+===============================
+*/
+
 /* Relative properties for HTML */
 html {
     font-size: 12pt;
     font-family: 'Open Sans', sans-serif;
+}
+
+strong {
+    font-weight: 400;
+}
+
+cite, em {
+    font-style: italic;
 }
 
 /* Common class 'Container' for all the page elements' */
@@ -137,14 +151,6 @@ Navigation
     
     letter-spacing: .5px;
     text-transform: uppercase;
-}
-
-strong {
-    font-weight: 400;
-}
-
-cite, em {
-    font-style: italic;
 }
 
 body {
