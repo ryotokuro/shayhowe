@@ -1,0 +1,15 @@
+html {
+    font-size: 12pt;
+}
+
+div {
+    background-color: #b2b2b2;
+    background-color: rgba(0, 0, 1000, .3);
+}
+
+.img {
+    background: white;
+    background-image: url("dax-logo.svg");
+    padding: 3.2em;
+    margin: 4em;
+}
