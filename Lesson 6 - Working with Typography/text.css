@@ -1,14 +1,21 @@
 html {
-    font-family: Moderat;
+    font-family: "Times New Roman";
     font-size: 12pt;
 }
 
+@font-face {
+    font-family: "Mod";
+    src: local("Mod"), url("Moderat.otf") format("woff");
+}
+
 .note {
+    font: 500 16px/22px "Lato";
     font-size: 3em;
     text-decoration: line-through underline;
 }
 
 p {
+    font-family: "Mod";
     font-size: 2em;
     text-align: center;
     text-shadow: 1em 0.5em 0.1em rgba(1000, 101, 0, 0.8);

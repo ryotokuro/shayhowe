@@ -110,7 +110,6 @@ h1 {
     
     width: 4em;
     padding: 0.5em 0;
-    border-bottom: 0.1em solid black;
 }
 
 h2 {
@@ -145,6 +144,7 @@ h5 {
 Navigation
 ===============================
 */
+
 .primary-nav {
     font-size: 0.56em;
     font-weight: 400;
@@ -153,9 +153,19 @@ Navigation
     text-transform: uppercase;
 }
 
+.nav {
+    text-align: right;  
+}
+
+/*
+===============================
+Navigation
+===============================
+*/
+
 body {
     color: #888;
-    font: 300 1em/1.2em "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 300 1em/1.2em "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /*
@@ -191,6 +201,12 @@ p a {
     margin: 0.8em;
     float: right;
 }
+
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
 
 .btn {
     display: inline-block;
@@ -234,11 +250,15 @@ p a {
 }
 
 .logo {
-    border-top: 4px solid #648880;
+    border-top: 0.1em solid #648880;
     float: left;
-    font-size: 2em;
+    font-size: 2.3em;
+    font-weight: 100;
+    
+    letter-spacing: 0.03em;
     line-height: 2em;
-    padding: 1.9em 0 1.3em 0;
+    padding: 1em 0 1em 0;
+    text-transform: uppercase;
 }
 
 .hero {
@@ -253,7 +273,14 @@ p a {
 
 .hero p {
     font-size: 1.3em;
+    font-weight: 100;
 }
+
+/*
+  ========================================
+  Primary Footer
+  ========================================
+*/
 
 .primary-footer {
     color: #648880;
@@ -270,14 +297,4 @@ p a {
 
 .teaser a:hover h3 {
     color: #a9b2b9;
-}
-
-/*
-  ========================================
-  Navigation
-  ========================================
-*/
-
-.nav {
-    text-align: right;  
 }
