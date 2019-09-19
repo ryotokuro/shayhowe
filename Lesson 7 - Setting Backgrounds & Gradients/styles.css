@@ -1,0 +1,357 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+===============================
+Grid
+===============================
+*/
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*
+===============================
+Global
+===============================
+*/
+
+/* Relative properties for HTML */
+html {
+    font-size: 12pt;
+}
+
+strong {
+    font-weight: 400;
+}
+
+cite,
+em {
+    font-style: italic;
+}
+
+/* Common class 'Container' for all the page elements' */
+.container {
+    margin: 0 auto;
+    padding-left: 2em;
+    padding-right: 2em;
+    width: 960px;
+}
+
+/*
+===============================
+Headers
+===============================
+*/
+
+h1,
+h3,
+h4,
+h5,
+p {
+    margin-bottom: 1.1em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #648880;
+}
+
+h1 {
+    font-weight: 550;
+    font-size: 1.5em;
+    line-height: 1em;
+
+    width: 4em;
+    padding: 0.5em 0;
+}
+
+h2 {
+    font-size: 1.3em;
+    line-height: 1em;
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    font-size: 1.1em;
+
+}
+
+.tagline {
+    margin: 2em 0 1.3em 0;
+    text-align: right;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+h5 {
+    color: #a9b2b9;
+    font-size: 1em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+/*
+  ========================================
+  Logo
+  ========================================
+*/
+
+.logo {
+    border-top: 0.1em solid #648880;
+    float: left;
+    font-size: 2.3em;
+    font-weight: 100;
+
+    letter-spacing: 0.03em;
+    line-height: 2em;
+    padding: 1em 0 1em 0;
+    text-transform: uppercase;
+}
+
+/*
+===============================
+Navigation
+===============================
+*/
+
+.primary-nav {
+    font-size: 1.04em;
+    font-weight: 400;
+
+    letter-spacing: .5px;
+    text-transform: uppercase;
+}
+
+.nav {
+    text-align: right;
+}
+
+/*
+===============================
+Body
+===============================
+*/
+
+body {
+    background: #293f50;
+    color: #888;
+    font: 300 1em/1.2em "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*
+  ========================================
+  Links
+  ========================================
+*/
+
+a:hover {
+    color: #a9b2b9;
+}
+
+a {
+    text-decoration: none;
+    color: #648880;
+}
+
+p a {
+    border-bottom: 1px solid #dfe2e5;
+}
+
+/*
+  ========================================
+  Elements
+  ========================================
+*/
+
+.description {
+    display: inline-block;
+    padding: 0.8em;
+    margin: 0.8em;
+    float: right;
+}
+
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
+
+.btn {
+    color: #fff;
+    display: inline-block;
+    border-radius: 0.5em;
+    cursor: pointer;
+    font-weight: 400;
+    letter-spacing: .05em;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.btn-alt {
+    border: 0.06em solid #fff;
+    padding: 0.7em 0.9em;
+}
+
+.btn-alt:hover {
+    background: #fff;
+    color: #648880;
+}
+
+/*
+  ========================================
+  Structure
+  ========================================
+*/
+
+.col-1-3,
+.col-2-3 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.col-1-3 {
+    width: 33%;
+}
+
+.col-2-3 {
+    width: 66.66%;
+}
+
+.grid,
+.col-1-3,
+.col-2-3 {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.grid,
+.container {
+    margin: 0 auto;
+    width: 960px;
+}
+
+/*
+  ========================================
+  Main
+  ========================================
+*/
+
+
+.hero {
+    line-height: 2em;
+    padding: 22px 80px 66px 80px;
+    text-align: center;
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 1.7em;
+}
+
+.hero p {
+    font-size: 1.3em;
+    font-weight: 100;
+}
+
+/*
+  ========================================
+  Primary Footer
+  ========================================
+*/
+
+.primary-footer {
+    color: #648880;
+    font-size: 0.9em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+.primary-footer small {
+    float: left;
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+.teaser a:hover h3 {
+    color: #a9b2b9;
+}
+
+
+.primary-header a,
+.primary-footer a {
+    color: #fff;
+}
+
+.primary-header a:hover,
+.primary-footer a:hover {
+    color: #648880;
+}
+
+/*
+  ========================================
+  Primary Footer
+  ========================================
+*/
+
+.row {
+    background: #fff;
+    height: 200px;
+    min-width: 960px;
+    padding: 1em 0 2em 0;
+}
