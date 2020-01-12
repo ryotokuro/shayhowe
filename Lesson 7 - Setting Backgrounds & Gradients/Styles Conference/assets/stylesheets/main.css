@@ -141,3 +141,17 @@ h1, h3, h4, h5, p {
   border: 1px solid #dfe2e5;
   padding: 10px 30px;
 }
+
+/*
+  ========================================
+  Primary footer
+  ========================================
+*/
+.primary-footer .small {
+    float: left;
+}
+
+.primary-footer {
+    padding-bottom: 44px;
+    padding-top: 44px;
+}
