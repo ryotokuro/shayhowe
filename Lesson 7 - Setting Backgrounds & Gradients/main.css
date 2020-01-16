@@ -54,3 +54,11 @@ div {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding: 15px 20px 15px 50px;
 }
+
+.linear-gradient {
+    color: #fff;
+    background: linear-gradient(to right top, #fff, #000);
+    padding: 1em;
+    text-align: center;
+    display: inline-block;
+}
