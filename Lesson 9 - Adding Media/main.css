@@ -1,0 +1,23 @@
+img {
+    background: #eaeaed;
+    border: 1px solid #9799a7;
+    float: right;
+    width: 700px;
+    margin: 8px 0 0 20px;
+    padding: 4px;
+}
+
+audio {
+    display: block;
+    margin: 20px;
+}
+
+video {
+    display: block;
+    width: 600px;
+}
+
+iframe {
+    display: block;
+    width: 40%;
+}

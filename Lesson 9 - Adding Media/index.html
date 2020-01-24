@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lesson 9 - Adding Media</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+    <p>
+        Gatsby is a black, brown, and white hound mix puppy who loves howling at fire trucks and collecting belly rubs.
+        <figure>
+            <img src="dog.jpg" alt="A black, brown and white dog wearing a kerchief">
+            <figcaption>A black, brown and white dog wearing a kerchief</figcaption>
+        </figure>
+        Although he spends most of his time sleeping he is also quick to chase any birds who enter his vision.
+    </p>
+
+    <section class="audio">
+        Here is a basic audio element that is displayed using the browser's default audio controls.
+
+        <audio src="beethoven.mp3" autoplay controls>Beethoven's 5th Symphony</audio>
+
+        Providing fallback for browser support, this audio element nests different file formats.
+
+        <audio controls>
+            <source src="pogchamp.ogg" type="audio/ogg">
+            <source src="pogchamp.mp3" type="audio/mp3">
+            <source src="pogchamp.wav" type="audio/wav">
+            Please <a href="pochamp.mp3" download>download</a> the audio file.
+        </audio>
+
+        <video controls poster="/Styles%20Conference/assets/images/speakers/aj-self.jpg">
+            <source src="earth.ogv" type="video/ogv">
+            <source src="earth.mp4" type="video/mp4">
+            Please <a href="earth.mp4" download>download</a> the video.
+        </video>
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HZrFeJwLduE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+        <iframe src="https://learn.shayhowe.com/html-css/adding-media/"></iframe>
+        
+        <iframe src="/"></iframe>
+    </section>
+</body>
+
+</html>
