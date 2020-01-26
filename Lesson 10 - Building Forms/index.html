@@ -7,6 +7,118 @@
 </head>
     
 <body>
-    <iframe href="https://learn.shayhowe.com/html-css/building-forms/"></iframe>
+    <h1>Input Forms</h1>
+    <form action="/login" method="post">
+
+    </form>
+    
+    <h2>Types of Input Forms</h2>
+    <input type="text" name="username">
+    
+    <input type="date" name="birthday">
+    
+    <input type="time" name="game-time">
+    
+    <input type="email" name="email-address">
+    
+    <input type="url" name="website">
+    
+    <input type="number" name="cost">
+    
+    <input type="tel" name="phone-number">
+    
+    <textarea name="comment">Add a comment here</textarea>
+    
+    <h2>Radio Input</h2>
+    <h3>What is your favourite day of the week?</h3>
+    <input type="radio" name="day" value="Monday" checked> Monday
+    <input type="radio" name="day" value="Tuesday"> Tuesday
+    <input type="radio" name="day" value="Wednesday"> Wednesday
+    <input type="radio" name="day" value="Thursday"> Thursday
+    <input type="radio" name="day" value="Friday"> Friday
+    <input type="radio" name="day" value="Saturday"> Saturday
+    <input type="radio" name="day" value="Sunday"> Sunday
+    
+    <h2>Checkbox Input</h2>
+    <h3>Check all that applies to you</h3>
+    <input type="checkbox" name="work-status" value="Full-time"> Full-time
+    <input type="checkbox" name="work-status" value="Part-time"> Part-time
+    <input type="checkbox" name="work-status" value="Casual"> Casual
+    <input type="checkbox" name="work-status" value="N/A"> N/A
+    
+    <h2>Select Forms</h2>
+    <h3>Drop-down list</h3>
+    <select name="day">
+        <option value="Friday" selected>Friday</option>
+        <option value="Saturday">Saturday</option>
+        <option value="Sunday">Sunday</option>
+    </select>
+    
+    <h3>Multiple Selection Drop-down List</h3>
+    <select name="elements" multiple>
+        <option value="Earth" selected>Earth</option>
+        <option value="Water">Water</option>
+        <option value="Fire">Fire</option>
+        <option value="Air">Air</option>
+    </select>
+    <input type="submit" value="Confirm">
+    
+    <h2>Buttons</h2>
+    <button name="submit">
+        <strong>Send Us</strong> a Message
+    </button>
+    
+    <h2>Hidden Inputs</h2>
+    <input type="hidden" name="tracking-code" value="abc-123">
+    
+    <h2>File Input</h2>
+    <input type="file" name="profile-image">
+    
+    <h1>Labels</h1>
+    Click on the label tied to the input to bring focus to the box.<br>
+    <label for="username">Username</label>
+    <input type="text" name="username" id="username">
+    
+    <h2>Radio Button Label Wrapping</h2>
+    <label>
+        <input type="radio" name="day" value="Monday" checked>Monday
+    </label>
+    <label>
+        <input type="radio" name="day" value="Tuesday">Tuesday
+    </label>
+    <label>
+        <input type="radio" name="day" value="Wednesday">Wednesday
+    </label>
+    
+    <h1>Fieldsets</h1>
+    <fieldset>
+        <label>
+            Username: 
+            <input type="text" name="username" value="username">
+        </label>
+        <label>
+            Password: 
+            <input type="password" name="password" value="password">
+        </label>
+    </fieldset>
+    
+    <h1>Input & Form Attributes</h1>
+    <h2>Disabled</h2>
+    <label>
+        Email Address:
+        <input type="email" name="email-address" value="email-address" disabled>
+    </label>
+    
+    <h2>Placeholder</h2>
+    <label>
+        Email Address:
+        <input type="email" name="email-address" placeholder="example@gmail.com">
+    </label>
+    
+    <h2>Required</h2>
+        <label>
+        Email Address:
+        <input type="email" name="email-address" placeholder="example@gmail.com" required>
+    </label>
 </body>
 </html>

@@ -1,0 +1,14 @@
+textarea {
+    display: block;
+    width: 500px;
+    margin: 40px;
+}
+
+select {
+    display: block;
+}
+
+input,
+select {
+    margin-bottom: 20px;
+}
