@@ -1,0 +1,31 @@
+caption {
+    margin-bottom: 5px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border-bottom: 1px solid #000;
+    padding: 10px 15px;
+}
+
+tfoot tr:last-child td {
+    border-bottom: 0;
+}
+
+.elements tbody tr:nth-child(even) {
+    background: #f0f0f2;
+}
+
+.elements th,
+.elements td {
+    border: 1px solid black;
+}
+
+.elements thead {
+    color: white;
+    background: #395870;
+}
