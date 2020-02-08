@@ -16,3 +16,51 @@ button strong span .callout {...}
 /* Good */
 button span {...}
 button .callout {...}
+
+
+/*
+    Favour Classes, they are good
+*/
+
+/* Bad */
+#container header nav {...}
+
+/* Good */
+.primary-nav {...}
+
+/* Bad */
+article.feat-post {...}
+
+/* Good */
+.feat-post {...}
+
+
+/*
+    Have Reusable Code!
+*/
+/* Bad */
+.news {
+  background: #eee;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, .25);
+}
+.social {
+  background: #eee;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, .25);
+}
+
+/* Good */
+.news,
+.social {
+  background: #eee;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, .25);
+}
+
+/* Even Better */
+.modal {
+  background: #eee;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, .25);
+}
